@@ -1,0 +1,36 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local GUESSWHOSBACk = Instance.new("Frame")
+local TOPBAR = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local UICorner_2 = Instance.new("UICorner")
+
+--Properties:
+
+GUESSWHOSBACk.Name = "GUESSWHOSBACk"
+GUESSWHOSBACk.Parent = game.StarterGui.Gui
+GUESSWHOSBACk.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GUESSWHOSBACk.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GUESSWHOSBACk.BorderSizePixel = 0
+GUESSWHOSBACk.Position = UDim2.new(0.246575341, 0, 0.220297024, 0)
+GUESSWHOSBACk.Size = UDim2.new(0, 693, 0, 440)
+
+TOPBAR.Name = "TOPBAR"
+TOPBAR.Parent = GUESSWHOSBACk
+TOPBAR.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+TOPBAR.BackgroundTransparency = 0.600
+TOPBAR.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TOPBAR.BorderSizePixel = 0
+TOPBAR.Position = UDim2.new(-4.40369092e-08, 0, 0, 0)
+TOPBAR.Size = UDim2.new(0, 692, 0, 29)
+
+UICorner.Parent = TOPBAR
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(18, 59, 204)), ColorSequenceKeypoint.new(0.41, Color3.fromRGB(172, 20, 20)), ColorSequenceKeypoint.new(0.72, Color3.fromRGB(125, 49, 49)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(79, 79, 79))}
+UIGradient.Parent = GUESSWHOSBACk
+
+UICorner_2.Parent = GUESSWHOSBACk
